@@ -21,6 +21,7 @@ public class lettersoccur {
             counter[(int) text03.charAt(i)]++;
         }
         
+        System.out.println(" OCCURANCE OF LETTERS ");
         for (i = 0; i < 256; i++) {
             if (counter[i] != 0) {
                 System.out.println((char) i + " - " + counter[i]);
